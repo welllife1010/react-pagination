@@ -12,7 +12,7 @@ export function Pagination({
   const [pages] = useState(Math.round(data.length / dataLimit)) // How many total pages
   const [currentPage, setCurrentPage] = useState(1)
 
-  console.log(currentPage)
+  //console.log(currentPage)
 
   function goToNextPage() {
     setCurrentPage((page) => page + 1)

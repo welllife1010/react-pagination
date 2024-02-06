@@ -1,5 +1,6 @@
-export default function Post(props) {
-  const { id, title, body } = props.data
+export default function Post({ data }) {
+  const { id, title, body } = data
+
   return (
     <div className="post">
       <small>{id}</small>

@@ -13,7 +13,7 @@ function App() {
         throw new Error("something went wrong while requesting posts")
       })
       .then((posts) => {
-        console.log(posts)
+        //console.log(posts)
         setPosts(posts)
       })
       .catch((error) => setError(error.message))
